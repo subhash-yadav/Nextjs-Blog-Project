@@ -24,4 +24,14 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    
+}
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+*::selection{
+  background-color: rgb(90, 59, 59);
+  color: black;
 }
